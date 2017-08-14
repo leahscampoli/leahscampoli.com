@@ -44,7 +44,7 @@ paginate = 10
 	[params.about]
 		hide  = false
 		title = "Hey there. I'm a technical writer in San Francisco."
-		content = ""
+		content = "Graduated from the Technical and Professional Writing program at San Francisco State University. Worked for over a decade writing documentation for biotech and software companies. Currently at Saleforce as a Staff Technical Writer."
 
 
 	[params.portfolio]
@@ -90,7 +90,7 @@ paginate = 10
 			description = "Lorem ipsum dolor sit amet."
 
 	[params.recentposts]
-		hide  = false
+		hide  = true
 		title = "Recent blog posts"
 
 	[params.contact]
@@ -134,11 +134,6 @@ paginate = 10
 	name = "Home"
 	url  = "/"
 	weight = 10
-
-[[menu.main]]
-	name = "Blog"
-	url  = "posts/"
-	weight = 0
 
 [[menu.main]]
 	name = "Portfolio"
